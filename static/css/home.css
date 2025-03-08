@@ -1,0 +1,32 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para la navbar */
+.navbar {
+    background-color: #4CAF50; /* Verde */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos al inicio */
+    align-items: center;
+}
+
+.navbar a {
+    color: white; /* Texto blanco */
+    text-decoration: none;
+    margin-right: 20px; /* Espacio entre los enlaces */
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #d4f7d4; /* Verde claro al pasar el mouse */
+}
+
+/* Contenido principal */
+.content {
+    padding: 20px;
+}
